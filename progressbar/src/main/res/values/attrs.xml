@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="progress_unReach_color" format="color"/>
+    <attr name="progress_unReach_height" format="dimension"/>
+    <attr name="progress_reach_color" format="color"/>
+    <attr name="progress_reach_height" format="dimension"/>
+    <attr name="progress_text_color" format="color"/>
+    <attr name="progress_text_size" format="dimension"/>
+    <attr name="progress_text_offset" format="dimension"/>
+    <attr name="radius" format="dimension"/>
+
+
+    <declare-styleable name="HProgressbar">
+
+        <attr name="progress_unReach_color"/>
+        <attr name="progress_unReach_height"/>
+        <attr name="progress_reach_color"/>
+        <attr name="progress_reach_height"/>
+        <attr name="progress_text_color"/>
+        <attr name="progress_text_size"/>
+        <attr name="progress_text_offset"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="RProgressbar">
+
+        <attr name="radius"/>
+
+    </declare-styleable>
+    
+</resources>
